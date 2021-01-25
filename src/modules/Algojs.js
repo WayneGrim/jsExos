@@ -6,7 +6,9 @@ export function isoNum() {
 }
 
 // --------------------------------------------------- Function with arguments -------------------------------------
-
+export function myFct(arg1, arg2) {
+    return arg1 + arg2
+}
 
 // --------------------------------------------------- Messi’s Goal Total -------------------------------------
 
