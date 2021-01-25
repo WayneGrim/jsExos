@@ -11,11 +11,13 @@
 // }
 
 // --------------------------------------------------- Messi’s Goal Total -------------------------------------
-export function goalTotal(a,b,c) {
-   return a + b + c;
-}
+// export function goalTotal(a,b,c) {
+//    return a + b + c;
+// }
 // --------------------------------------------------- Grasshopper Order of Operations -------------------------------------
-
+export function GrasshopperOrder () {
+    return (2 + 2) * (2 + 2) * 2;
+    }
 // --------------------------------------------------- Return the First Element in an Array -------------------------------------
 
 
