@@ -15,20 +15,17 @@
 //    return a + b + c;
 // }
 // --------------------------------------------------- Grasshopper Order of Operations -------------------------------------
-export function GrasshopperOrder () {
-    return (2 + 2) * (2 + 2) * 2;
-    }
+// export function GrasshopperOrder () {
+//     return (2 + 2) * (2 + 2) * 2;
+//     }
 // --------------------------------------------------- Return the First Element in an Array -------------------------------------
-
+export function getFirstValue(tab) {
+    tab = [58, 25, 15, 45 ,78]
+    return tab[0];
+}
 
 // --------------------------------------------------- Find the Smallest and Biggest Numbers -------------------------------------
 
-
-
-// --------------------------------------------------- Find the Smallest and Biggest Numbers -------------------------------------
-
-
-// --------------------------------------------------- Sort by String Length -------------------------------------
 
 
 // --------------------------------------------------- Filter Strings from Array -------------------------------------
