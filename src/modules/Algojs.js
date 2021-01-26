@@ -64,11 +64,11 @@
 // }
 
 // --------------------------------------------------- Return Last Item -------------------------------------
-export function lastItem(string){
-    var str = string;
-    var lastLetter = str[str.length - 1];
-    return lastLetter;
-}
+// export function lastItem(string){
+//     var str = string;
+//     var lastLetter = str[str.length - 1];
+//     return lastLetter;
+// }
 
 
 // --------------------------------------------------- The Farm Problem -------------------------------------
@@ -105,7 +105,11 @@ export function lastItem(string){
 
 
 // --------------------------------------------------- Convert Hours and Minutes into Seconds -------------------------------------
-
+export function convert(a, b){
+    var hours = Math.floor(a * 60 * 60);
+    var minutes = Math.floor(b * 60);
+    return hours+minutes;
+}
 // --------------------------------------------------- Return Negative -------------------------------------
 // export function returnNegative(n){
 //     if(n>0){
