@@ -73,12 +73,20 @@
 
 
 // --------------------------------------------------- Return the Next Number from the Integer Passed -------------------------------------
-export function addition(n){
-    var n = 9
-    return n + 1
-}
+// export function addition(n){
+//     var n = 9
+//     return n + 1
+// }
 
 // --------------------------------------------------- Boolean to String Conversion -------------------------------------
+export function boolToString(flag){
+    if (flag === true){
+        return 'true';
+    }
+    else{
+        return 'false';
+    }
+}
 
 
 // --------------------------------------------------- Filter out Strings from an Array -------------------------------------
