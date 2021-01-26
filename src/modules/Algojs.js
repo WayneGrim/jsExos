@@ -19,14 +19,32 @@
 //     return (2 + 2) * (2 + 2) * 2;
 //     }
 // --------------------------------------------------- Return the First Element in an Array -------------------------------------
-export function getFirstValue(tab) {
-    tab = [58, 25, 15, 45 ,78]
-    return tab[0];
-}
+// export function getFirstValue(tab) {
+//     tab = [58, 25, 15, 45 ,78]
+//     return tab[0];
+// }
 
 // --------------------------------------------------- Find the Smallest and Biggest Numbers -------------------------------------
+    export function minMax(tab){
+        var tmp = 0;
 
+        if(tab.length === 1){
+            return [tab[0], tab[0]]
+        }
 
+        for(var i=0; i < tab.length; i++){
+
+            while(tab[i] > tab[i+1]){
+                tmp = tab[i];
+                tab[i] = tab[i+1];
+                tab[i+1] = tmp;
+            }
+
+        var min = tab[0];
+        var max = tab[tab.length-1];
+        }
+    return [min, max];
+    }
 
 // --------------------------------------------------- Filter Strings from Array -------------------------------------
 
