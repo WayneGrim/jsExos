@@ -64,19 +64,23 @@
 // }
 
 // --------------------------------------------------- Return Last Item -------------------------------------
-
+export function lastItem(string){
+    var str = string;
+    var lastLetter = str[str.length - 1];
+    return lastLetter;
+}
 
 
 // --------------------------------------------------- The Farm Problem -------------------------------------
 
 // --------------------------------------------------- Reverse an Array -------------------------------------
-function reverseArray(arr) {
-    var newArray = [];
-    for (var i = arr.length - 1; i >= 0; i--) {
-      newArray.push(arr[i]);
-    }
-    return newArray;
-  }
+// function reverseArray(arr) {
+//     var newArray = [];
+//     for (var i = arr.length - 1; i >= 0; i--) {
+//       newArray.push(arr[i]);
+//     }
+//     return newArray;
+//   }
 
 // --------------------------------------------------- Return the Next Number from the Integer Passed -------------------------------------
 // export function addition(n){
