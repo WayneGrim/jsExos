@@ -70,7 +70,13 @@
 // --------------------------------------------------- The Farm Problem -------------------------------------
 
 // --------------------------------------------------- Reverse an Array -------------------------------------
-
+function reverseArray(arr) {
+    var newArray = [];
+    for (var i = arr.length - 1; i >= 0; i--) {
+      newArray.push(arr[i]);
+    }
+    return newArray;
+  }
 
 // --------------------------------------------------- Return the Next Number from the Integer Passed -------------------------------------
 // export function addition(n){
@@ -121,8 +127,8 @@
 //         }
 // }
 // --------------------------------------------------- Add up the Numbers from a Single Number -------------------------------------
-export function addUp(n){
-    let sum = n * (n + 1) / 2;
-    return sum;
-}
+// export function addUp(n){
+//     let sum = n * (n + 1) / 2;
+//     return sum;
+// }
 // --------------------------------------------------- Matchstick Houses -------------------------------------
