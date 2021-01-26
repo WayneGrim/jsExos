@@ -79,14 +79,14 @@
 // }
 
 // --------------------------------------------------- Boolean to String Conversion -------------------------------------
-export function boolToString(flag){
-    if (flag === true){
-        return 'true';
-    }
-    else{
-        return 'false';
-    }
-}
+// export function boolToString(flag){
+//     if (flag === true){
+//         return 'true';
+//     }
+//     else{
+//         return 'false';
+//     }
+// }
 
 
 // --------------------------------------------------- Filter out Strings from an Array -------------------------------------
@@ -97,7 +97,14 @@ export function boolToString(flag){
 // --------------------------------------------------- Convert Hours and Minutes into Seconds -------------------------------------
 
 // --------------------------------------------------- Return Negative -------------------------------------
-
+export function returnNegative(n){
+    if(n>0){
+        return n = n* -1
+    }
+    else{
+        return n
+    }
+}
 // --------------------------------------------------- Simple Loop -------------------------------------
 
 
