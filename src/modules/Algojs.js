@@ -110,16 +110,19 @@
 // --------------------------------------------------- Area of a Rectangle -------------------------------------
 
 // --------------------------------------------------- Two Makes Ten -------------------------------------
-export function makesTen(a, b){
+// export function makesTen(a, b){
 
-    if (a===10 || b===10 || a + b === 10){
-        console.log('test', a + b);
-        return true;
-    }
-        else{
-            return false;
-        }
-}
+//     if (a===10 || b===10 || a + b === 10){
+//         console.log('test', a + b);
+//         return true;
+//     }
+//         else{
+//             return false;
+//         }
+// }
 // --------------------------------------------------- Add up the Numbers from a Single Number -------------------------------------
-
+export function addUp(n){
+    let sum = n * (n + 1) / 2;
+    return sum;
+}
 // --------------------------------------------------- Matchstick Houses -------------------------------------
