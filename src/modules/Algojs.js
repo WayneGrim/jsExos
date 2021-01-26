@@ -47,21 +47,21 @@
     // }
 
 // --------------------------------------------------- Filter Strings from Array -------------------------------------
-export function sortByLength(a){
-    var swapped;
-    do{
-        swapped = false
-        for (var i = 0; i < a.length - 1; i++){
-            if(a[i].length > a[i+1].length){
-                var tmp = a[i];
-                a[i] = a[i+1];
-                a[i+1]=tmp
-                swapped = true;
-            }
-        }
-    }while(swapped);
-    return a;
-}
+// export function sortByLength(a){
+//     var swapped;
+//     do{
+//         swapped = false
+//         for (var i = 0; i < a.length - 1; i++){
+//             if(a[i].length > a[i+1].length){
+//                 var tmp = a[i];
+//                 a[i] = a[i+1];
+//                 a[i+1]=tmp
+//                 swapped = true;
+//             }
+//         }
+//     }while(swapped);
+//     return a;
+// }
 
 // --------------------------------------------------- Return Last Item -------------------------------------
 
@@ -73,7 +73,10 @@ export function sortByLength(a){
 
 
 // --------------------------------------------------- Return the Next Number from the Integer Passed -------------------------------------
-
+export function addition(n){
+    var n = 9
+    return n + 1
+}
 
 // --------------------------------------------------- Boolean to String Conversion -------------------------------------
 
