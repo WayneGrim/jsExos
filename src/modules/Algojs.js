@@ -111,13 +111,13 @@
 // }
 
 // --------------------------------------------------- Array of Multiples -------------------------------------
-export function arrayOfMultiples(a, b){
-    var res = [];
-    for(let i = a; i <= a * b; i += a){
-        res.push(i);
-   };
-   return res;
-}
+// export function arrayOfMultiples(a, b){
+//     var res = [];
+//     for(let i = a; i <= a * b; i += a){
+//         res.push(i);
+//    };
+//    return res;
+// }
 
 
 // --------------------------------------------------- Convert Hours and Minutes into Seconds -------------------------------------
