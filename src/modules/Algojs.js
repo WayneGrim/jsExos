@@ -138,9 +138,16 @@
 // }
 
 // --------------------------------------------------- Simple Loop -------------------------------------
-// export function simpleLoop(){
+export function simpleLoop(a) {
+    var res = [];
+    var j = 0
+    for (var i = 0; i < a; i++) {
+        res[j] = i + 1;
+        j++;
+    }
+    return res;
+}
 
-// }
 
 // --------------------------------------------------- Area of a Rectangle -------------------------------------
 // export function getArea(a, b) {
