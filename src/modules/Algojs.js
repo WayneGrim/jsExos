@@ -74,9 +74,9 @@
 
 
 // --------------------------------------------------- The Farm Problem -------------------------------------
-// export function animals(){
-
-// }
+export function animals(a, b, c) {
+    return a*2 + b*4 + c*4;
+}
 
 
 // --------------------------------------------------- Reverse an Array -------------------------------------
@@ -138,15 +138,15 @@
 // }
 
 // --------------------------------------------------- Simple Loop -------------------------------------
-export function simpleLoop(a) {
-    var res = [];
-    var j = 0
-    for (var i = 0; i < a; i++) {
-        res[j] = i + 1;
-        j++;
-    }
-    return res;
-}
+// export function simpleLoop(a) {
+//     var res = [];
+//     var j = 0
+//     for (var i = 0; i < a; i++) {
+//         res[j] = i + 1;
+//         j++;
+//     }
+//     return res;
+// }
 
 
 // --------------------------------------------------- Area of a Rectangle -------------------------------------
