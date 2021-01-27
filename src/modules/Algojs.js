@@ -74,9 +74,9 @@
 
 
 // --------------------------------------------------- The Farm Problem -------------------------------------
-export function animals(a, b, c) {
-    return a*2 + b*4 + c*4;
-}
+// export function animals(a, b, c) {
+//     return a*2 + b*4 + c*4;
+// }
 
 
 // --------------------------------------------------- Reverse an Array -------------------------------------
@@ -106,77 +106,81 @@ export function animals(a, b, c) {
 
 
 // --------------------------------------------------- Filter out Strings from an Array -------------------------------------
-// export function filtArrayInt(arr){
-//     return arr.parseInt();
-// }
-
-// --------------------------------------------------- Array of Multiples -------------------------------------
-// export function arrayOfMultiples(a, b){
-//     var res = [];
-//     for(let i = a; i <= a * b; i += a){
-//         res.push(i);
-//    };
-//    return res;
-// }
 
 
-// --------------------------------------------------- Convert Hours and Minutes into Seconds -------------------------------------
-// export function convert(a, b) {
-//     var hours = Math.floor(a * 60 * 60);
-//     var minutes = Math.floor(b * 60);
-//     return hours + minutes;
-// }
-
-// --------------------------------------------------- Return Negative -------------------------------------
-// export function returnNegative(n) {
-//     if (n > 0) {
-//         return n = n * -1
-//     }
-//     else {
-//         return n
-//     }
-// }
-
-// --------------------------------------------------- Simple Loop -------------------------------------
-// export function simpleLoop(a) {
-//     var res = [];
-//     var j = 0
-//     for (var i = 0; i < a; i++) {
-//         res[j] = i + 1;
-//         j++;
-//     }
-//     return res;
-// }
+    // --------------------------------------------------- Array of Multiples -------------------------------------
+    // export function arrayOfMultiples(a, b){
+    //     var res = [];
+    //     for(let i = a; i <= a * b; i += a){
+    //         res.push(i);
+    //    };
+    //    return res;
+    // }
 
 
-// --------------------------------------------------- Area of a Rectangle -------------------------------------
-// export function getArea(a, b) {
-//     if (a > 0 && b > 0) {
-//         return a * b
-//     }
-//     else {
-//         return -1
-//     }
-// }
+    // --------------------------------------------------- Convert Hours and Minutes into Seconds -------------------------------------
+    // export function convert(a, b) {
+    //     var hours = Math.floor(a * 60 * 60);
+    //     var minutes = Math.floor(b * 60);
+    //     return hours + minutes;
+    // }
 
-// --------------------------------------------------- Two Makes Ten -------------------------------------
-// export function makesTen(a, b) {
-//     if (a === 10 || b === 10 || a + b === 10) {
-//         console.log('test', a + b);
-//         return true;
-//     }
-//     else {
-//         return false;
-//     }
-// }
+    // --------------------------------------------------- Return Negative -------------------------------------
+    // export function returnNegative(n) {
+    //     if (n > 0) {
+    //         return n = n * -1
+    //     }
+    //     else {
+    //         return n
+    //     }
+    // }
 
-// --------------------------------------------------- Add up the Numbers from a Single Number -------------------------------------
-// export function addUp(n) {
-//     let sum = n * (n + 1) / 2;
-//     return sum;
-// }
+    // --------------------------------------------------- Simple Loop -------------------------------------
+    // export function simpleLoop(a) {
+    //     var res = [];
+    //     var j = 0
+    //     for (var i = 0; i < a; i++) {
+    //         res[j] = i + 1;
+    //         j++;
+    //     }
+    //     return res;
+    // }
 
-// --------------------------------------------------- Matchstick Houses -------------------------------------
-// export function matchHouses(){
 
-// }
+    // --------------------------------------------------- Area of a Rectangle -------------------------------------
+    // export function getArea(a, b) {
+    //     if (a > 0 && b > 0) {
+    //         return a * b
+    //     }
+    //     else {
+    //         return -1
+    //     }
+    // }
+
+    // --------------------------------------------------- Two Makes Ten -------------------------------------
+    // export function makesTen(a, b) {
+    //     if (a === 10 || b === 10 || a + b === 10) {
+    //         console.log('test', a + b);
+    //         return true;
+    //     }
+    //     else {
+    //         return false;
+    //     }
+    // }
+
+    // --------------------------------------------------- Add up the Numbers from a Single Number -------------------------------------
+    // export function addUp(n) {
+    //     let sum = n * (n + 1) / 2;
+    //     return sum;
+    // }
+
+    // --------------------------------------------------- Matchstick Houses -------------------------------------
+    export function matchHouses(n) {
+        var sticks = 6;
+        if(n !== 1){
+            return sticks * n - ( n - 1 );
+        }
+        else {
+            return sticks
+        }
+    }
